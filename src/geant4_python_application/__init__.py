@@ -19,16 +19,16 @@ __version__ = version
 __version__tuple__ = version_tuple
 
 __all__ = [
-    "__version__",
-    "__version__tuple__",
-    "geant4_version",
-    "awkward_version",
-    "pybind11_version",
-    "version",
     "Application",
     "Detector",
-    "basic_gdml",
-    "install_datasets",
-    "data_directory",
+    "__version__",
+    "__version__tuple__",
     "application_directory",
+    "awkward_version",
+    "basic_gdml",
+    "data_directory",
+    "geant4_version",
+    "install_datasets",
+    "pybind11_version",
+    "version",
 ]
